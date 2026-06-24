@@ -1,6 +1,13 @@
+[README.md](https://github.com/user-attachments/files/29300872/README.md)
 # Site de Avaliação de Filmes — Projeto Full Stack (ABP)
 
 Projeto dividido em **3 Marcos de Entrega**, conforme `Projeto_Full_Stack_Apresentacao_ABP.pdf`.
+
+## Alunos
+
+- Lara Geovana — RA: 22502104
+- Gabriel Rios — RA: 22505812
+- Camilla Valenzuela — RA: 22502503
 
 ## Estrutura de Diretórios
 
@@ -21,7 +28,7 @@ movie-review-app/
 ```
 
 > Observação: o arquivo `backend/server.js` já está na **versão final** (Marco 3: CRUD com Prisma + Helmet + proteção XSS).
-> O arquivo `MARCO_1_server_mock.js` foi mantido separado apenas como referência do código inicial do Marco 1 (dados mockados em memória).
+> O arquivo `MARCO_1_server_mock.js` foi mantido separado apenas como referência do código inicial do Marco 1 (dados mockados em memória), para você mostrar a evolução do projeto na apresentação.
 
 ## Como rodar (resumo — detalhes completos no RELATORIO.md)
 
