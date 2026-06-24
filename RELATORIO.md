@@ -1,3 +1,4 @@
+[RELATORIO (3).md](https://github.com/user-attachments/files/29300930/RELATORIO.3.md)
 # Relatório Técnico — Site de Avaliação de Filmes
 
 # 1. Como Rodar
@@ -160,3 +161,23 @@ envie um payload de script através do formulário de avaliação:
 Esse conjunto de medidas garante que a aplicação esteja protegida contra o
 vetor de XSS identificado, sem comprometer a funcionalidade de exibir
 livremente os comentários e títulos de filmes cadastrados pelos usuários.
+
+---
+
+# 4. Ferramentas e IA Utilizadas
+
+Para o desenvolvimento deste projeto, foram utilizadas as seguintes ferramentas:
+
+### Inteligência Artificial
+- **Claude (Anthropic)** — utilizado como assistente de desenvolvimento para gerar a estrutura inicial do código (backend, frontend e configuração do Prisma), auxiliar na implementação das rotas CRUD, sugerir a correção de vulnerabilidades de XSS e redigir a documentação técnica deste relatório.
+
+### Tecnologias e Bibliotecas
+- **Node.js** — ambiente de execução do backend.
+- **Express** — framework para criação do servidor e das rotas da API.
+- **Prisma ORM** — camada de acesso ao banco de dados.
+- **SQLite** — banco de dados relacional utilizado para persistência.
+- **Helmet** — middleware de segurança para configuração de cabeçalhos HTTP.
+- **HTML5 e JavaScript Vanilla** — construção da interface e do consumo da API via `fetch()`.
+
+### Observação
+Todo o código gerado com auxílio de IA foi revisado, testado e adaptado antes da entrega final, garantindo o entendimento completo do funcionamento da aplicação por parte do(s) desenvolvedor(es) responsável(eis) pelo projeto.
