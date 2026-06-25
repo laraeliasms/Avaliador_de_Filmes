@@ -1,7 +1,28 @@
-[README.md](https://github.com/user-attachments/files/29300872/README.md)
+[README (1).md](https://github.com/user-attachments/files/29349558/README.1.md)
 # Site de Avaliação de Filmes — Projeto Full Stack (ABP)
 
 Projeto dividido em **3 Marcos de Entrega**, conforme `Projeto_Full_Stack_Apresentacao_ABP.pdf`.
+
+## Sobre o Projeto
+
+O **Site de Avaliação de Filmes** é uma aplicação web full stack que
+permite aos usuários cadastrar, visualizar e excluir avaliações de filmes,
+informando o nome do filme, uma nota de 1 a 5 e um comentário/crítica.
+
+O projeto foi desenvolvido como parte de uma Atividade Baseada em Projeto
+(ABP), seguindo uma evolução incremental em três marcos de entrega:
+
+1. **Marco 1** — validação da arquitetura cliente-servidor com dados
+   mockados em memória, sem persistência real.
+2. **Marco 2** — implementação de persistência real dos dados utilizando
+   SQLite e Prisma ORM, com rotas completas de CRUD (criar, listar e
+   excluir avaliações).
+3. **Marco 3** — blindagem da aplicação contra vulnerabilidades de
+   segurança (XSS), utilizando `textContent` no frontend e o middleware
+   `helmet` no backend, além da documentação técnica final do projeto.
+
+A stack utilizada é HTML5 e JavaScript puro no frontend, e Node.js com
+Express, Prisma e SQLite no backend.
 
 ## Alunos
 
